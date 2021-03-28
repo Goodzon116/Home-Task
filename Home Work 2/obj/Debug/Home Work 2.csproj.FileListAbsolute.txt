@@ -1,0 +1,7 @@
+C:\Users\Shabulday\source\repos\Lession1\Home Work 2\bin\Debug\Home Work 2.exe.config
+C:\Users\Shabulday\source\repos\Lession1\Home Work 2\bin\Debug\Home Work 2.exe
+C:\Users\Shabulday\source\repos\Lession1\Home Work 2\bin\Debug\Home Work 2.pdb
+C:\Users\Shabulday\source\repos\Lession1\Home Work 2\obj\Debug\Home Work 2.csprojAssemblyReference.cache
+C:\Users\Shabulday\source\repos\Lession1\Home Work 2\obj\Debug\Home Work 2.csproj.CoreCompileInputs.cache
+C:\Users\Shabulday\source\repos\Lession1\Home Work 2\obj\Debug\Home Work 2.exe
+C:\Users\Shabulday\source\repos\Lession1\Home Work 2\obj\Debug\Home Work 2.pdb

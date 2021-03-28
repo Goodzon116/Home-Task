@@ -1,0 +1,7 @@
+C:\Users\Shabulday\source\repos\Lession1\SApp2\bin\Debug\SApp2.exe.config
+C:\Users\Shabulday\source\repos\Lession1\SApp2\bin\Debug\SApp2.exe
+C:\Users\Shabulday\source\repos\Lession1\SApp2\bin\Debug\SApp2.pdb
+C:\Users\Shabulday\source\repos\Lession1\SApp2\obj\Debug\SApp2.csprojAssemblyReference.cache
+C:\Users\Shabulday\source\repos\Lession1\SApp2\obj\Debug\SApp2.csproj.CoreCompileInputs.cache
+C:\Users\Shabulday\source\repos\Lession1\SApp2\obj\Debug\SApp2.exe
+C:\Users\Shabulday\source\repos\Lession1\SApp2\obj\Debug\SApp2.pdb
