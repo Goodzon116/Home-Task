@@ -10,7 +10,7 @@ namespace Home_Work_2
     {       
         static void Main(string[] args)
         {
-            test1();
+           
             
 
 
@@ -207,59 +207,6 @@ namespace Home_Work_2
 
             return false;                            
         }
-        static void test1()
-        {
-
-            int i = 1;
-            Console.WriteLine($"Попытка №: {i}"); // Вывод номера попытки ввода данных
-
-            Console.Write("Введите логин: ");
-            string userName = Console.ReadLine(); // Вводим логин
-
-            Console.Write("Введите пароль: ");
-            string userPassword = Console.ReadLine(); // Вводим пароль
-
-            // начинаем цикл do while
-            do
-            {
-                Console.Clear(); // Чистка консоли
-
-                if (userChec(userName, userPassword) == false) // Проверка логина и пароля
-                {
-                    if (i > 2) // Лимит попыток
-                    {
-                        Console.WriteLine("Доступ заблокирован: Превышен лимит попыток!");
-                        break; // выход из цикла
-                    }
-                    else
-                    {
-                        Console.WriteLine($"Попытка №: {i + 1}"); // Вывод номера попытки ввода данных
-                        Console.WriteLine("Ошибка: Данные не верные!"); // Вывод ошибки
-
-                        Console.Write("Введите логин: ");
-                        userName = Console.ReadLine(); // Вводим логин
-
-                        Console.Write("Введите пароль: ");
-                        userPassword = Console.ReadLine(); // Вводим пароль
-                        i++; // операция инкремента
-                    }
-                }
-
-                else
-                {
-                    Console.WriteLine("Доступ открыт!");
-                    break; // выход из цикла
-                }
-
-            } while (true); // вечный цикл
-
-
-
-            Console.ReadKey();
-
-
-
-
-        }
+        
     }
 }
