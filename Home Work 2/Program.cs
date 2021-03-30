@@ -89,22 +89,22 @@ namespace Home_Work_2
             Console.WriteLine($"Попытка №: {i}"); // Вывод номера попытки ввода данных
 
             Console.Write("Введите логин: ");
-            string userName = Console.ReadLine(); // Вводим логин
+            string userName = Console.ReadLine(); 
 
             Console.Write("Введите пароль: ");
-            string userPassword = Console.ReadLine(); // Вводим пароль
+            string userPassword = Console.ReadLine(); 
 
             // начинаем цикл do while
             do
             {
-                Console.Clear(); // Чистка консоли
+                Console.Clear(); 
 
-                if (userChec(userName, userPassword) == false) // Проверка логина и пароля
+                if (userChec(userName, userPassword) == false) 
                 {
                     if (i > 2) // Лимит попыток
                     {
                         Console.WriteLine("Доступ заблокирован: Превышен лимит попыток!");
-                        break; // выход из цикла
+                        break; 
                     }
                     else
                     {
@@ -112,11 +112,11 @@ namespace Home_Work_2
                         Console.WriteLine("Ошибка: Данные не верные!"); // Вывод ошибки
 
                         Console.Write("Введите логин: ");
-                        userName = Console.ReadLine(); // Вводим логин
+                        userName = Console.ReadLine(); 
 
                         Console.Write("Введите пароль: ");
-                        userPassword = Console.ReadLine(); // Вводим пароль
-                        i++; // операция инкремента
+                        userPassword = Console.ReadLine(); 
+                        i++; 
                     }
                 }
 
@@ -200,7 +200,7 @@ namespace Home_Work_2
         }
         static bool userChec(string userName, string userPassword)
         {
-            if (userName == "goodzon" && userPassword == "12345678") 
+            if (userName == "root" && userPassword == "GeekBrains") 
             {
                 return true;
             }
