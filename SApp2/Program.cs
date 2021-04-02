@@ -186,36 +186,109 @@ namespace SApp2
                 Console.WriteLine($"Результат {i} Ожирение 3-й степени. Немедленно начинайте худеть!");
                 
                 Console.ReadKey();*/
-            }
-        #endregion
+            #endregion
 
-            #region (создание вспомогательного класса)
+            Complex complex01 = new Complex(3, 2);
 
-        /// <summary>
-        /// Вспомогательный класс
-        /// </summary>
-        /*public class OutputHelpers
-        {
-            public static void PrintInCenter(string text)
-            {
-                Console.SetCursorPosition((Console.WindowWidth - text.Length) / 2, Console.WindowHeight / 2 - 1);
-                Console.WriteLine(text);
-            }
+            Complex complex02 = new Complex();
+            complex02.Re = 0;
+            complex02.Im = -2;
 
-            public static void Pause()
-            {
-                Console.ReadKey();
-            }
+            var complex03 = complex01.Plus(complex02);
+
+            Console.WriteLine($"({complex01}) + ({complex02}) = {complex03}");
+
+            Console.ReadKey();
+
+
         }
-        И вызов из метода, например из метода main:
+        class Complex
+        {
+
+            #region Поля
+
+            /// <summary>
+            /// Мнимая часть комплексного числа
+            /// </summary>
+            private double _im;
+
+            /// <summary>
+            /// Действительная часть комплексного числа
+            /// </summary>
+            private double re;
+
+            #endregion
+
+            #region Свойства
+
+            public double Im
+            {
+                get { return _im; }
+                set
+                {
+                    if (value == 0)
+                        throw new Exception("Мнимая часть комплексного числа не может быть равна нулю.");
+                    _im = value;
+                }
+            }
+
+            public double Re
+            {
+                get { return re; }
+                set { re = value; }
+            }
+
+            #endregion
+
+            #region Конструкторы
+
+            public Complex()
+            {
+
+            }
+
+            /// <summary>
+            /// Конструктор создает новое комплексное число с параметрами
+            /// </summary>
+            /// <param name="im">Мнимая часть комплексного числа</param>
+            /// <param name="re">Действительная часть комплексного числа</param>
+            public Complex(double im, double re)
+            {
+                if (im == 0)
+                    throw new Exception("Мнимая часть комплексного числа не может быть равна нулю.");
+
+                _im = im;
+                this.re = re;
+            }
+
+            #endregion
+
+            #region Публичные методы
+
+            public Complex Plus(Complex x)
+            {
+                // Пример 1
+                Complex y = new Complex(_im + x.Im, re + x.Re);
+
+                // Пример 2
+                Complex y1 = new Complex();
+                y1.Im = _im + x.Im;
+                y1.Re = re + x.Re;
+
+                return y1;
+            }
+
+            public override string ToString()
+            {
+                return $"{re} + {_im}i";
+            }
+   
+
+
+        }
 
 
 
-       Console.Clear();
-       OutputHelpers.PrintInCenter($"Иванов Иван Иванович, г. Москва");
-       OutputHelpers.Pause();*/
-
-       #endregion
 
 
 
@@ -228,8 +301,6 @@ namespace SApp2
 
 
 
-
-          
 
 
 
@@ -255,4 +326,4 @@ namespace SApp2
 
 
 
-}
+

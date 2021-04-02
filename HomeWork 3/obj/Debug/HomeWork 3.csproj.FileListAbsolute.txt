@@ -1,0 +1,7 @@
+C:\Users\Shabulday\source\repos\Lession1\HomeWork 3\bin\Debug\HomeWork 3.exe.config
+C:\Users\Shabulday\source\repos\Lession1\HomeWork 3\bin\Debug\HomeWork 3.exe
+C:\Users\Shabulday\source\repos\Lession1\HomeWork 3\bin\Debug\HomeWork 3.pdb
+C:\Users\Shabulday\source\repos\Lession1\HomeWork 3\obj\Debug\HomeWork 3.csprojAssemblyReference.cache
+C:\Users\Shabulday\source\repos\Lession1\HomeWork 3\obj\Debug\HomeWork 3.csproj.CoreCompileInputs.cache
+C:\Users\Shabulday\source\repos\Lession1\HomeWork 3\obj\Debug\HomeWork 3.exe
+C:\Users\Shabulday\source\repos\Lession1\HomeWork 3\obj\Debug\HomeWork 3.pdb
